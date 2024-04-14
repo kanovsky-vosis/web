@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
+    background-image: url('img/background.jpg'); /* Replace 'background.jpg' with your image path */
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -41,6 +41,7 @@
     width: 22px;
     height: 22px;
     float: right;
+    cursor: pointer;
 
   }
 
@@ -72,6 +73,7 @@
     border-right: 1px solid #34391C;
     border-bottom: 1px solid #34391C;
     cursor: pointer;
+    width: 90px;
   }
   
   .buttons button:hover {
@@ -86,6 +88,7 @@
     width: 22px;
     height: 22px;
     float: right;
+    cursor: pointer;
 
   }
 
@@ -104,7 +107,7 @@
     padding: 20px;
     margin-bottom: 20px; 
     height: 500px;
-    overflow: auto;
+    
     color: white;
    
   }
@@ -113,22 +116,22 @@
     width: 22px;
     height: 22px;
     float: right;
+    cursor: pointer;
     
 
   }
 
 
-
-  .content-inner {
-    text-align: left;
-    margin-right: 600px;
-    margin-top: 40px;
+  .content-inner{
+    margin-top: -500px;
+    margin-left: 20px;
   }
 
   .content-inner img {
 
-    width: 400px;
+    width: 390px;
     height: 250px;
+    
 
     border-top: 1px solid #34391C;
     border-left: 1px solid #34391C;
@@ -136,6 +139,8 @@
     border-bottom: 1px solid #958C7B;
 
   }
+
+
 
   .content-inner2 {
     border-top: 1px solid #958C7B;
@@ -155,7 +160,7 @@
   }
 
   .content-inner2 a{
-    color: white;
+    color: #A49D66;
 
   }
 
@@ -163,15 +168,15 @@
     width: 22px;
     height: 22px;
     float: right;
-    margin-top: -205px;
-    margin-right: 10px
-    
+    margin-top: 15px;
+    margin-right: 0px;
+    cursor: pointer;
     
 
   }
 
   .content-inner2 img:first-child { 
-    margin-right: 32px;
+    margin-right: 16px;
   }
 
   .content-inner3 {
@@ -183,11 +188,20 @@
     width: 400px;
     height: 320px;
 
-    margin-top: 55px;
+    
+    margin-top: 25px;
     margin-left: 40px;
 
     text-align: center;
+    vertical-align: middle;
+    line-height: 320px;
   }
+
+  .content-inner3 a{
+    color: white;
+  }
+
+
 
   .content-inner4 {
     border-top: 1px solid #34391C;
@@ -252,7 +266,7 @@
   
  
   .sidebar a {
-    padding: 0px 8px 6px 16px;
+    padding: 0px 8px 0px 16px;
     text-decoration: none;
     font-size: 13px;
     color: #A49D66;
@@ -271,6 +285,8 @@
     color: white;
     display: block;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
   }
   
   .sidebar img {
@@ -278,6 +294,7 @@
     width: 22px;
     float: right;
     margin-top: 0px;
+    cursor: pointer;
 
   }
 
@@ -286,4 +303,74 @@
     
   }
 
+  .skull {
+    position:fixed; 
+    
+    z-index: 1; 
+    top: 0; 
+    right: 0;
 
+    margin-top: 675px;
+    margin-right: 275px;
+
+  }
+
+  .block-of-text {
+    
+    color: #75816D;
+    
+    margin-bottom: 0px;
+
+    z-index: 1;
+    position: relative;
+
+    height: 400px;
+
+    top: 0;
+
+
+    margin-left: 410px;
+    margin-top: -465px ;
+    line-height: 1.2;
+
+
+
+    
+}
+
+
+
+.content-inner2,
+.content-inner3 {
+    position: relative;
+    z-index: 2; 
+}
+
+.haine {
+  height: 20px;
+  width: 150px;
+
+
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+
+.construction {
+  text-align: center;
+}
+
+.construction img{
+  width: 700px;
+  height: 300px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+.name {
+
+  width: 50px;
+  margin-top: -306px;
+  margin-left: 8px;
+  color: #75816D;
+}
