@@ -228,8 +228,8 @@
 
 
   .sidebar {
-    height: 300px;
-    width: 120px; 
+    height: 350px;
+    width: 140px; 
     position:fixed; 
     
     z-index: 1; 
@@ -244,7 +244,7 @@
     border-bottom: 1px solid #34391C;
 
     margin-top: 245px;
-    margin-right: 280px;
+    margin-right: 260px;
 
     overflow-x: hidden;
     padding-top: 20px;
@@ -252,10 +252,10 @@
   
  
   .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 0px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 13px;
+    color: #A49D66;
     display: block;
   }
   
@@ -263,4 +263,27 @@
   .sidebar a:hover {
     color: #f1f1f1;
   }
+
+  .sidebar h3 {
+    padding: 6px 14px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  
+  .sidebar img {
+    height: 22px;
+    width: 22px;
+    float: right;
+    margin-top: 0px;
+
+  }
+
+  .sidebar img:first-child { 
+    margin-right: 10px;
+    
+  }
+
 
