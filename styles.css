@@ -11,7 +11,7 @@
   }
   
   .container {
-    max-width: 1000px; /* Adjust as needed */
+    max-width: 1000px;
     margin: 100px auto;
     padding: 20px;
     font-family: "ＭＳ Ｐゴシック";
@@ -603,3 +603,149 @@
 
 }
 
+/* LOGIN STYLES */
+
+.loginBackground { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('img/spy.jpg'); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.loginContainer {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: "ＭＳ Ｐゴシック";
+}
+
+.loginContent {
+  border-top: 1px solid #958C7B;
+  border-left: 1px solid #958C7B;
+  border-right: 1px solid #34391C;
+  border-bottom: 1px solid #34391C;
+  background-color: #4C5945;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  
+}
+
+.loginContent2 {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-top: 1px solid #34391C;
+  border-left: 1px solid #34391C;
+  border-right: 1px solid #958C7B;
+  border-bottom: 1px solid #958C7B;
+  background-color: #3E4637;
+  height: 200px;
+  width: 280px;
+  text-align: center;
+  
+}
+
+.textBoxdiv {
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+.textBoxdiv input {
+  background: none;
+  border: 2px solid #75816D;
+  outline: none;
+  width: 100px;
+  color: white;
+  height: 20px;
+  font-size: 16px;
+
+}
+
+.loginBtn {
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+
+  color: #75816D;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 55px;
+
+  border-top: 1px solid #958C7B;
+  border-left: 1px solid #958C7B;
+  border-right: 1px solid #34391C;
+  border-bottom: 1px solid #34391C;
+  background-color: #4C5945;
+}
+
+.loginBtn:hover {
+  background: #4C5945;
+  color: white;
+  border-top: 1px solid #34391C;
+  border-left: 1px solid #34391C;
+  border-right: 1px solid #958C7B;
+  border-bottom: 1px solid #958C7B;
+}
+
+.signup {
+  color: rgb(222, 217, 217);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup a {
+  color: rgb(222, 217, 217);
+  font-weight: bold;
+}
+
+
+.loginTitle {
+
+  width: 15px;
+  height: 180px;
+  margin-top: -230px;
+  margin-left: 10px;
+
+  text-align: center;
+  margin-bottom: 15px;
+  color: #75816D;
+  font-size: 18px;
+}
+
+
+.loginContent img {
+  height: 22px;
+  width: 22px;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 0px;
+
+
+}
+
+.loginContent img:first-child {
+  margin-right: 10px;
+
+
+}
+
+.loginSmoke {
+  border: none;
+  width: 150px;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: -180px;
+}
+
+.loginSmoke img {
+  height: 200px;
+  width: 180px;
+}
