@@ -14,6 +14,7 @@
     max-width: 1000px; /* Adjust as needed */
     margin: 100px auto;
     padding: 20px;
+    font-family: "ＭＳ Ｐゴシック";
     
   }
   
@@ -431,6 +432,7 @@
   
 }
 
+
 .user-img {
   width: 250px;
   height: 225px;
@@ -454,8 +456,8 @@
 }
 
 .suspec {
-  margin-top: -575px;
-  margin-left: -40px;
+  margin-top: -535px;
+  margin-left: -60px;
   color: #A49D66;
 }
 
@@ -504,12 +506,18 @@
 
 .evidence {
   color: #A49D66;
-  margin-top: 232px;
-  margin-left: 107px;
+  margin-top: 235px;
+  margin-left: 90px;
+}
+
+.evidence-show {
+  color: #A49D66;
+  margin-top: -170px;
+  margin-left: 415px;
 }
 
 .options {
-  margin-right: 20px;
+  margin-right: 0px;
 }
 .option {
   cursor: pointer;
@@ -517,10 +525,10 @@
 
 }
 .option:hover {
-  background-color: lightgray;
+  background-color: #282E20;
 }
 .info-here {
-  border: 1px solid black;
+  
   padding: 10px;
 
   background-color: #3E4637;
@@ -564,6 +572,34 @@
 
   margin-right: 40px;
 
+
+}
+
+.kitty img {
+  height: 60px; 
+  width: 300px;
+
+  margin-top: -232px;
+  margin-right: -300px;
+
+  cursor: grab;
+
+}
+
+.banana {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 275px;
+  
+}
+.banana img{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  cursor: default;
+  
+  
 
 }
 
