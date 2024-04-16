@@ -78,7 +78,12 @@
   
   .buttons button:hover {
     background-color: #4C5945;
-    color: white
+    color: white;
+
+    border-top: 1px solid #34391C;
+    border-left: 1px solid #34391C;
+    border-right: 1px solid #958C7B;
+    border-bottom: 1px solid #958C7B;
   }
 
 
@@ -503,4 +508,62 @@
   margin-left: 107px;
 }
 
+.options {
+  margin-right: 20px;
+}
+.option {
+  cursor: pointer;
+  margin-bottom: 5px;
+
+}
+.option:hover {
+  background-color: lightgray;
+}
+.info-here {
+  border: 1px solid black;
+  padding: 10px;
+
+  background-color: #3E4637;
+
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 510px;
+  height: 340px;
+
+  border-top: 1px solid #34391C;
+  border-left: 1px solid #34391C;
+  border-right: 1px solid #958C7B;
+  border-bottom: 1px solid #958C7B; 
+}
+
+.info-here-outside {
+  border-top: 1px solid #958C7B;
+  border-left: 1px solid #958C7B;
+  border-right: 1px solid #34391C;
+  border-bottom: 1px solid #34391C;
+
+  margin-top: -450px;
+  margin-left: 400px;
+
+  width: 580px;
+  height: 440px;
+}
+
+.info-here-outside img {
+  height: 22px;
+  width: 22px;
+  float: right;
+  margin-top: -175px;
+  cursor: pointer;
+  margin-right: 18px;
+
+
+}
+
+.info-here-outside img:first-child   {
+
+  margin-right: 40px;
+
+
+}
 

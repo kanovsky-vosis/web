@@ -50,8 +50,31 @@
             <img src="img/minimize.png">
 
             <div class="info-inside">
+              <div class="options">
+                <div class="option" onclick="displayInfo(1)">Steam</div>
+                <div class="option" onclick="displayInfo(2)">Minecraft</div>
+                <div class="option" onclick="displayInfo(3)">Ubisoft</div>
+                <div class="option" onclick="displayInfo(4)">EA</div>
+                <div class="option" onclick="displayInfo(5)">Letterboxd</div>
+                <div class="option" onclick="displayInfo(6)">Github</div>
+                <div class="option" onclick="displayInfo(7)">Instagram</div>
+                <div class="option" onclick="displayInfo(8)">Twitter</div>
+                <div class="option" onclick="displayInfo(9)">kill me</div>
+              </div>              
+            </div>
+          </div>
+          <div class="info-here-outside">
+            <img src="img/minimize.png">  
+            <img src="img/close.png">
+
+          
+            <div class="info-here" id="infoDisplay">
+              No info xd
+
 
             </div>
+            </div>
+          </div>
         </div>
     
     
@@ -78,6 +101,45 @@
     
     
     </div>
+
     
+    <script>
+      function displayInfo(option) {
+          var infoDisplay = document.getElementById("infoDisplay");
+          switch (option) {
+              case 1:
+                  infoDisplay.innerHTML = "Info for Option 1";
+                  break;
+              case 2:
+                  infoDisplay.innerHTML = "Info for Option 2";
+                  break;
+              case 3:
+                  infoDisplay.innerHTML = "Info for Option 3";
+                  break;
+              case 4:
+                  infoDisplay.innerHTML = "Info for Option 4";
+                  break;
+              case 5:
+                  infoDisplay.innerHTML = "Info for Option 5";
+                  break;
+              case 6:
+                  infoDisplay.innerHTML = "Info for Option 6";
+                  break;
+              case 7:
+                  infoDisplay.innerHTML = "Info for Option 7";
+                  break;
+              case 8:
+                  infoDisplay.innerHTML = "Info for Option 8";
+                  break;
+              case 9:
+                  infoDisplay.innerHTML = "Info for Option 9";
+                  break;
+              // Add more cases for additional options
+              default:
+                  infoDisplay.innerHTML = "No info available.";
+          }
+      }
+  </script>
+  
 </body>
 </html>
